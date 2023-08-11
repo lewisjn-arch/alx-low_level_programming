@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main = Starting point of code */
-/* Return: Always 0 (Means code is successful) */
+/**
+ * main - Entry point of the program
+ *
+ * Description: Function checks if interger is positive or negative
+ *
+ * Return: Always 0 (Means code is successful)
+ */
 int main(void)
 {
 	int n;
