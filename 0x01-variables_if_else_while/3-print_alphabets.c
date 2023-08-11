@@ -11,20 +11,20 @@ int main(void)
 {
 	char upper;
 	char lower;
-	
+
 	lower = 'a';
 	while (lower <= 'z')
-	{	
+	{
 		putchar(lower);
 		lower++;
-		if (lower == 'z')
-			upper = 'A';
-			while (upper <= 'Z')
-			{
-				putchar(upper);
-				upper++;
-			}
 	}
-	purchar('\n';);
-	return(0);
+
+	upper = 'A';
+	while (upper <= 'Z')
+	{
+		putchar(upper);
+		upper++;
+	}
+	putchar ('\n');
+	return (0);
 }
