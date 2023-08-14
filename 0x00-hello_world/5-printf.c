@@ -1,1 +1,15 @@
-printf("%s\n", with proper grammar, but the outcome is a piece of art,);
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * main - Entry point for the programme 
+ *
+ * Description: This functions prints a string using the printf function
+ *
+ * Return: Always 0 if the test case passes
+ */ 
+
+int main(void)
+{
+	printf("%s", with proper grammar, but the outcome is a piece of art,);
+}
