@@ -21,7 +21,7 @@ int main(void)
 		putchar (m + '0');
 		m++;
 	}
-	while (c < 'f')
+	while (c <= 'f')
 	{
 		putchar (c);
 		c++;
