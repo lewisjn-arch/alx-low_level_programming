@@ -20,7 +20,7 @@ int main(void)
 		putchar (',');
 		putchar (' ');
 			if (num < 10)
-				putchar (num + "00");
+				putchar (num + '00');
 		num++;
 	}
 	putchar ('\n');
