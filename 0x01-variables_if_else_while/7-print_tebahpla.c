@@ -12,7 +12,7 @@ int main(void)
 {
 	char lower;
 
-	lower = 'z'
+	lower = 'z';
 	while (lower == 'z')
 	{
 		putchar (lower);
