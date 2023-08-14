@@ -1,23 +1,31 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - Entry point of programme
+ * main - Entry point of the programme
  *
- * Description: This function pringle single digit base 16 numbers
+ * Description: This function prints all base 16 numbers m lowercase
  *
- * Return: Always returns 0 to mean test case passes
+ * Return: Always returns 0 to mean the test case passes
  */
 
 int main(void)
 {
-        int num;
+	int m;
+	char c;
 
-        num = 0;
-        while (num < 16)
-        {
-                putchar (num + '0');
-                num++;
-        }
-        putchar ('\n');
-        return (0);
+	m = 0;
+	c = 'a';
+	while (m < 10)
+	{
+		putchar (m + '0');
+		m++;
+	}
+	while (c < 'f')
+	{
+		putchar (c);
+		c++;
+	}
+	putchar ('\n');
+	return (0);
 }
