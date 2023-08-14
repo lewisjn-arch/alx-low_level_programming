@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point for the programme 
+ * main - Entry point for the programme
  *
  * Description: This functions prints a string using the printf function
  *
  * Return: Always 0 if the test case passes
- */ 
+ */
 
 int main(void)
 {
