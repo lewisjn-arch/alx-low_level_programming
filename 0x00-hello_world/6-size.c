@@ -13,11 +13,11 @@ int main(void)
 {
 	char c;
 	int num;
-	long int number'
+	long int number;
 	long long int numbersLong;
 	float decimal;
 
-	printf ("Size of char: %lu byte(s)\n", (unsigned long)sizeof(c));	,
+	printf ("Size of char: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf ("Size of int: %lu byte(s)\n", (unsigned long)sizeof(num));
 	printf ("Size of long int: %lu byte(s)\n", (unsigned long)sizeof(number));
 	printf ("Size of long long int: %lu byte(s)\n", (unsigned long)sizeof(numbersLong));
