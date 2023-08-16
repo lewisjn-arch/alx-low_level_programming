@@ -5,7 +5,7 @@
  *
  * Description: This function prints the alphabet in lowercase
  *
- * Return: Always returns (0) to mean test case passes
+ * Return: Always returns void to mean test case passes
  */
 
 void print_alphabet(void)
@@ -13,7 +13,7 @@ void print_alphabet(void)
 	char lower;
 
 	lower = 'a';
-	while (lower < 'z')
+	while (lower <= 'z')
 	{
 		_putchar (lower);
 		lower++;
