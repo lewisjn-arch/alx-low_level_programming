@@ -6,7 +6,7 @@
  * Always returns void to mean the test case passes
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int repeat;
 	char lower;
