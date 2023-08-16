@@ -3,6 +3,8 @@
 /**
  * print_alphabet_x10: This program prints the alphabet 10 times on a new line
  *
+ * Description: This program prints the alphabet on a new line
+ *
  * Always returns void to mean the test case passes
  */
 
