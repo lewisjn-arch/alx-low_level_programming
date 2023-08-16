@@ -5,10 +5,10 @@
  *
  * Description: This function prints the alphabet in lowercase
  *
- *Return: Always returns (0) to mean test case passes
+ * Return: Always returns (0) to mean test case passes
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char lower;
 
