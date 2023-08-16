@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10: This program prints the alphabet 10 times on a new line
+ * print_alphabet_x10 - This program prints the alphabet 10 times on a new line
  *
  * Description: This program prints the alphabet on a new line
  *
