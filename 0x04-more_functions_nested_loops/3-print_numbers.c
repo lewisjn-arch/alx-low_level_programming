@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_numbers - This function prints numbers 0 through 9
@@ -13,7 +12,7 @@ void print_numbers(void)
 
 	for (c = 48; i < 58; c++)
 	{
-		_putchar(c);
+		_putchar (c);
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
