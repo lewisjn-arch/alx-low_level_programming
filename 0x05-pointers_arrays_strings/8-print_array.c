@@ -1,28 +1,23 @@
 #include "main.h"
+
 /**
- * puts_half - that prints half of a string
- *
- * @str: input
- * 
- * Return: half of input
+ * print_array -  prints n elements of an array
+ * @a: array name
+ * @n: is the number of elements OF the array to be printed
+ * Return: a and n inputs
  */
-
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	int a, n, length;
+	int i;
 
-	length = 0;
-
-	for (a = 0; str[a] != '\0'; a++)
-		length++;
-
-	n = (length / 2);
-
-	if ((length % 2) == 1)
-		n = ((length + 1) / 2);
-
-	for (a = n; str[a] != '\0'; a++)
-		_putchar(str[a]);
-	_putchar('\n');
+	for (i = 0; i < (n - 1); i++)
+	{
+		printf("%d, ", a[i]);
+	}
+		if (i == (n - 1))
+		{
+			printf("%d", a[n - 1]);
+		}
+			printf("\n");
 }
 
