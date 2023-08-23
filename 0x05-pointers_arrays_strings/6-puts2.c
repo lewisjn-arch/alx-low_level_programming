@@ -15,9 +15,9 @@ void puts2(char *str)
 	char *k = str;
 	int n;
 
-	while (*y != '\0')
+	while (*k != '\0')
 	{
-		y++;
+		k++;
 		length;
 	}
 	m = length - 1;
