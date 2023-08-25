@@ -3,6 +3,8 @@
 /**
  * more_numbers - This function prints 10 times the numbers 0 to 14
  * followed by a new line
+ *
+ * Return: void
  */
 
 void more_numbers(void)
@@ -20,6 +22,6 @@ void more_numbers(void)
 				_putchar(j % 10 + '0');
 			j++;
 		}
-	_putchar ('\n');
+	_putchar('\n');
 	}
 }
