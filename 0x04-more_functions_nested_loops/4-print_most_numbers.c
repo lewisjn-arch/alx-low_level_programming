@@ -12,12 +12,10 @@ void print_most_numbers(void)
 {
 	int c;
 
-	c = 48;
-	while (c <= 57)
+	for (c = 48; c < 58; c++)
 	{
 		if (c != 50 && c != 52)
 			_putchar(c);
-		c++;
 	}
 	_putchar('\n');
 }
