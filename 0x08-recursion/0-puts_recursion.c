@@ -4,13 +4,14 @@
  * _puts_recursion - This recursive function prints a string
  *
  * @s: This is the string to be printed
- * 
+ *
  * Return: void
  */
 
 void _puts_recursion(char *s)
 {
 	int i;
+
 	i = 0;
 	if (s[i] == '\0')
 	{
