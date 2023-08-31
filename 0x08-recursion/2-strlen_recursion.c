@@ -5,7 +5,7 @@
  *
  * @s: the string input to be passed
  *
- * Return: 0
+ * Return: length of the string
  */
 
 int _strlen_recursion(char *s)
@@ -15,12 +15,10 @@ int _strlen_recursion(char *s)
 	len = 0;
 	if (*s == '\0')
 	{
-		return (0);
+		return (len);
 	}
 	else
-	{
-		len++;
-		_strlen_recursion(s + 1);
+	{	
+		return (len + 1) + _strlen_recursion(s + 1);
 	}
-	return (len);
 }
