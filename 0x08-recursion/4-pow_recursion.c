@@ -2,6 +2,7 @@
 
 /**
  * _pow_recursion - This function returns the value of x
+ * raised to the power of y
  *
  * @x: interger input
  * @y: interger input
@@ -21,6 +22,6 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		return x * _pow_recursion(x,(y-1));
+		return (x * _pow_recursion(x, (y - 1)));
 	}
 }
