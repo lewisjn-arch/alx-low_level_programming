@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <unistd.h>
 
 /**
  * print_file - This program prints the file name
@@ -12,7 +13,7 @@ int print_file(void)
 	char *filename = __FILE__;
 	while (*filename)
 	{
-		_putchar(filename);
+		_putchar(*filename);
 		filename++;
 	}
 	_putchar('\n');
