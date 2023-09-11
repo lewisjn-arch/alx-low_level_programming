@@ -1,21 +1,12 @@
-#include "main.h"
-#include <stdlib.h>
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * print_file - This program prints the file name
+ * main - prints the name of the input file
  *
- * Return: this returns 0 if test case is a success
+ * Return: Always 0 to mean Success
  */
-
-int print_file(void)
+int main(void)
 {
-	char *filename = __FILE__;
-	while (*filename)
-	{
-		_putchar(*filename);
-		filename++;
-	}
-	_putchar('\n');
+	printf("%s\n", __FILE__);
 	return (0);
 }
