@@ -6,6 +6,8 @@
  * @s: The string to evaluate.
  *
  * Description: This function calculates the length of a string.
+ *
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
@@ -26,6 +28,8 @@ int _strlen(char *s)
  *
  * Description: This function copies a string, including the null byte,
  * from src to dest.
+ *
+ * Return: new copied string
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -53,6 +57,8 @@ char *_strcpy(char *dest, char *src)
  * @owner: The owner of the dog.
  *
  * Description: This function creates a new dog with the given information.
+ *
+ * Return: name of the new dog and owner
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
