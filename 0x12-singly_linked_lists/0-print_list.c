@@ -4,7 +4,6 @@
 /**
  * print_list - This function prints all the elements of a linked list
  * @h: pointer to the list_t list to print
- * @l: the iterator of the list
  *
  * Return: the number of nodes to be printed
  */
